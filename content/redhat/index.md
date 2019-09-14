@@ -13,4 +13,4 @@ date: 2019-09-14
 
 **Ejercicios**
 
-[Gestión de paquetes](ejercicios)
+[Gestión de paquetes](ejercicios.html)
