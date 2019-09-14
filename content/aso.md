@@ -1,18 +1,14 @@
 title: Índice del curso
-slug: indice
+slug: aso
 date: 2019-09-13
+modified: 2019-09-14
+save_as: index.html
 
-# Índice del curso
-
-## Introducción
+## [Introducción](/intro/)
 
 ## Debian y derivadas
 
-## El kérnel linux
-
-[Índice del tema](kernel/indice.md)
-
-[kernel.pdf](/doc/kernel.pdf)
+## [El kérnel linux](/kernel/)
 
 ## Red Hat y derivadas
 
