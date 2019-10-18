@@ -12,6 +12,14 @@ Puntos a tratar en esta unidad:
 1. Ficheros de cabeceras del núcleo. Compilación de módulos
 1. Compilación del kérnel
 
-Documentación:
+**Documentación**
 
-[kernel.pdf]({static}/doc/kernel.pdf)
+* [kernel.pdf]({static}/doc/kernel.pdf)
+
+**Enlaces**
+
+* [https://kernel-team.pages.debian.net/kernel-handbook/](https://kernel-team.pages.debian.net/kernel-handbook/)
+* [Linux Kernel in a Nutshell](http://www.kroah.com/lkn/)
+* [Wikipedia: Protection ring](https://en.wikipedia.org/wiki/Protection_ring)
+* [Wikipedia: initrd](https://es.wikipedia.org/wiki/Initrd)
+* [Wikipedia: Proprietary device driver](https://en.wikipedia.org/wiki/Proprietary_device_driver)
