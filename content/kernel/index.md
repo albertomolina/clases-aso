@@ -23,3 +23,4 @@ Puntos a tratar en esta unidad:
 * [Wikipedia: Protection ring](https://en.wikipedia.org/wiki/Protection_ring)
 * [Wikipedia: initrd](https://es.wikipedia.org/wiki/Initrd)
 * [Wikipedia: Proprietary device driver](https://en.wikipedia.org/wiki/Proprietary_device_driver)
+* [Una historia de UNIX: en memoria de Dennis Ritchie](http://architecnologia.es/una-historia-de-unix-en-memoria-de-dennis-ritchie)
