@@ -3,22 +3,22 @@ slug: identidad/index
 date: 2020-01-30
 
 1. Introducción
-   * Identidad
-   * Autenticación
-   * Autorización
-   * Usuarios del sistema/usuarios virtuales
-   * Single Sign-on
-   * Federación
-   * Delegación
+    * Identidad
+	* Autenticación
+	* Autorización
+	* Usuarios del sistema/usuarios virtuales
+	* Single Sign-on
+	* Federación
+	* Delegación
 1. Mecanismos de autenticación
-   * Ficheros
-   * Directorios: LDAP
-   * Bases de datos
-   * Certificados x509
-   * Kerberos
-   * Linux PAM
-   * OpenID
-   * Pseudo autenticación con OAuth
+    * Ficheros
+	* Directorios: LDAP
+	* Bases de datos
+	* Certificados x509
+	* Kerberos
+	* Linux PAM
+	* OpenID
+	* Pseudo autenticación con OAuth
 
 **Documentación**
 
