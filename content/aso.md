@@ -39,7 +39,7 @@ profesores y alumnos de nuestro centro.
 
 ## [Seguridad en sistemas](/seg/)
 
-## [Autenticación](/autenticacion/)
+## [Gestión de la identidad](/identidad/)
 
 ## [Sistemas de cuentas centralizadas en entornos UNIX](/centraliz1/)
 
