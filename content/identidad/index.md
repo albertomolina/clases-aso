@@ -30,6 +30,7 @@ date: 2020-01-30
 
 * [Identity, Authentication + OAuth = OpenID Connect](https://www.youtube.com/watch?v=Kb56GzQ2pSk)
 * [Wikipedia - Kerberos](https://en.wikipedia.org/wiki/Kerberos_(protocol))
+* [FreeIPA](https://www.freeipa.org/page/Main_Page)
 * [Why Use SSSD Instead of a Direct LDAP Configuration for Applications?](http://rhelblog.redhat.com/2016/04/26/why-use-sssd-instead-of-a-direct-ldap-configuration-for-applications/)
 * [Wikimedia.org - OpenID vs OAuth](http://upload.wikimedia.org/wikipedia/commons/3/32/OpenIDvs.Pseudo-AuthenticationusingOAuth.svg)
 * [Shibboleth Consortium](https://www.shibboleth.net/)
