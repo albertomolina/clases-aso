@@ -2,6 +2,9 @@ title: Debian y derivadas
 slug: debian/index
 date: 2019-09-14
 
+**Ejercicios**
+* [Vagrantfile](Vagrantfile)
+
 **Enlaces**
 
 * [www.debian.org - Debian Reference](https://www.debian.org/doc/manuals/debian-reference/index.en.html)
