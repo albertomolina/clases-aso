@@ -1,8 +1,6 @@
 title: El kernel linux
 slug: kernel/index
-tags: kernel, indice
-date: 2019-09-13
-modified: 2019-09-14
+date: 03/10/2020
 
 Puntos a tratar en esta unidad:
 
@@ -14,7 +12,9 @@ Puntos a tratar en esta unidad:
 
 **Documentación**
 
+* [sistemas-operativos.pdf]({static}/doc/sistemas-operativos.pdf)
 * [kernel.pdf]({static}/doc/kernel.pdf)
+* [kernel_linux.pdf]({static}/doc/kernel_linux.pdf)
 
 **Enlaces**
 
