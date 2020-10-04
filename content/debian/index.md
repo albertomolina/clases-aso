@@ -1,9 +1,14 @@
 title: Debian y derivadas
 slug: debian/index
-date: 2019-09-14
+date: 2020-10-04
+
+**Documentación**
+
+* [debian.pdf]({static}/doc/debian.pdf)
 
 **Ejercicios**
-* [Vagrantfile](Vagrantfile)
+
+* [Vagrantfile]({static}/doc/Vagrantfile)
 
 **Enlaces**
 
