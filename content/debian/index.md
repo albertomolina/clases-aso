@@ -9,7 +9,7 @@ date: 2020-10-04
 **Ejercicios**
 
 * [Vagrantfile]({static}/doc/Vagrantfile)
-* [Ejercicios de dpkg/apt](ejercicios.html)
+* [Ejercicios de dpkg/apt]({filename}/debian/ejercicios.md)
 
 **Enlaces**
 
