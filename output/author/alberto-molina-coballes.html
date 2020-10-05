@@ -20,26 +20,146 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="../debian/index.html">Debian y derivadas</a></h1>
+                    <h1 class="entry-title"><a href="../debian/ejercicios.html">Ejercicios de dpkg/APT</a></h1>
 <footer class="post-info">
-        <span>dom 04 octubre 2020</span>
+        <span>lun 05 octubre 2020</span>
 
-</footer><!-- /.post-info --><p><strong>Documentación</strong></p>
-<ul>
-<li><a href="../doc/debian.pdf">debian.pdf</a></li>
-</ul>
-<p><strong>Ejercicios</strong></p>
-<ul>
-<li><a href="../doc/Vagrantfile">Vagrantfile</a></li>
-</ul>
-<p><strong>Enlaces</strong></p>
-<ul>
-<li><a href="https://www.debian.org/doc/manuals/debian-reference/index.en.html">www.debian.org - Debian Reference</a></li>
-<li><a href="https://www.debian.org/releases/stable/amd64/index.en.html">Debian GNU/Linux Installation Guide</a></li>
-<li><a href="https://bugs.debian.org/release-critical/">debian.org - Release critical bugs</a></li>
-</ul>                </article>
+</footer><!-- /.post-info --><p>En primer lugar prepara una máquina virtual con Debian buster, puedes
+hacerlo de la forma que prefieras o usando el fichero Vagrantfile que
+se proporciona.</p>
+<p>La versión de debian buster a fecha de hoy, es la versión 10.6. Sobre
+una máquina de versión anterior realizar las siguientes acciones:</p>
+<h2>Trabajo con apt, aptitude, dpkg</h2>
+<ol>
+<li>
+<p>Que acciones consigo al realizar apt update y apt upgrade. Explica
+   detalladamente.</p>
+</li>
+<li>
+<p>Lista la relación de paquetes que pueden ser actualizados. ¿Qué
+   información puedes sacar a tenor de lo mostrado en el listado?.</p>
+</li>
+<li>
+<p>Indica la versión instalada, candidata así como la prioridad del
+   paquete openssh-client.</p>
+</li>
+<li>
+<p>¿Cómo puedes sacar información de un paquete oficial instalado o
+   que no este instalado?</p>
+</li>
+<li>
+<p>Saca toda la información que puedas del paquete openssh-client que
+   tienes actualmente instalado en tu máquina.</p>
+</li>
+<li>
+<p>Saca toda la información que puedas del paquete openssh-client
+   candidato a actualizar en tu máquina.</p>
+</li>
+<li>
+<p>Lista todo el contenido referente al paquete openssh-client actual
+   de tu máquina. Utiliza para ello tanto dpkg como apt.</p>
+</li>
+<li>
+<p>Listar el contenido de un paquete sin la necesidad de instalarlo o
+   descargarlo.</p>
+</li>
+<li>
+<p>Simula la instalación del paquete openssh-client.</p>
+</li>
+<li>
+<p>¿Qué comando te informa de los posible bugs que presente un
+    determinado paquete?</p>
+</li>
+<li>
+<p>Después de realizar un apt update &amp;&amp; apt upgrade. Si quisieras
+    actualizar únicamente los paquetes que tienen de cadena
+    openssh. ¿Qué procedimiento seguirías?. Realiza esta acción, con
+    las estructuras repetitivas que te ofrece bash, así como con el
+    comando xargs.</p>
+</li>
+<li>
+<p>¿Cómo encontrarías qué paquetes dependen de un paquete
+    específico.</p>
+</li>
+<li>
+<p>Como procederías para encontrar el paquete al que pertenece un
+    determinado archivo.</p>
+</li>
+<li>
+<p>¿Que procedimientos emplearías para eliminar liberar la cache en
+    cuanto a descargas de paquetería?</p>
+</li>
+</ol>
+<h2>Trabajo con ficheros .deb</h2>
+<ol>
+<li>
+<p>Descarga un paquete sin instalarlo, es decir, descarga el fichero
+    .deb correspondiente. Indica diferentes formas de hacerlo.</p>
+</li>
+<li>
+<p>¿Cómo puedes ver el contenido, que no extraerlo, de lo que se
+    instalará en el sistema de un paquete deb?</p>
+</li>
+<li>
+<p>Sobre el fichero .deb descargado, utiliza el comando ar. ar
+    permite extraer el contenido de una paquete deb. Indica el
+    procedimiento para visualizar con ar el contenido del paquete
+    deb. Con el paquete que has descargado y utilizando el comando ar,
+    descomprime el paquete. ¿Qué información dispones después de la
+    extracción?. Indica la finalidad de lo extraído.</p>
+</li>
+<li>
+<p>Indica el procedimiento para descomprimir lo extraído por ar del
+    punto anterior. ¿Qué información contiene?</p>
+</li>
+</ol>
+<h2>Trabajo con repositorios</h2>
+<ol>
+<li>
+<p>Añade a tu fichero sources.list los repositorios de backports y
+    sid.</p>
+</li>
+<li>
+<p>¿Cómo añades la posibilidad de descargar paquetería de la
+    arquitectura i386 en tu sistema. ¿Que comando has empleado?. Lista
+    arquitecturas no nativas. ¿Cómo procederías para desechar la
+    posibilidad de descargar paquetería de la arquitectura i386?</p>
+</li>
+<li>
+<p>Si quisieras descargar un paquete, ¿cómo puedes saber todas las
+    versiones disponible de dicho paquete?</p>
+</li>
+<li>
+<p>Indica el procedimiento para descargar un paquete del repositorio
+    stable.</p>
+</li>
+<li>
+<p>Indica el procedimiento para descargar un paquete del repositorio
+    de backports.</p>
+</li>
+<li>
+<p>Indica el procedimiento para descargar un paquete del repositorio
+    de sid.</p>
+</li>
+<li>
+<p>Indica el procedimiento para descargar un paquete de arquitectura
+i386.</p>
+</li>
+</ol>
+<h2>Trabajo con directorios</h2>
+<ol>
+<li>
+<p>Que cometidos tienen:</p>
+</li>
+<li>
+<p><code>/var/lib/apt/lists/</code></p>
+</li>
+<li><code>/var/lib/dpkg/available</code></li>
+<li><code>/var/lib/dpkg/status</code></li>
+<li><code>/var/cache/apt/archives/</code></li>
+</ol>                </article>
 <p class="paginator">
-    Page 1 / 14
+    Page 1 / 15
         <a href="../author/alberto-molina-coballes2.html">&raquo;</a>
 </p>
             </aside><!-- /#featured -->
