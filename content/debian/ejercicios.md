@@ -49,11 +49,27 @@ una máquina de versión anterior realizar las siguientes acciones:
 12. ¿Cómo encontrarías qué paquetes dependen de un paquete
     específico.
        	
-13. Como procederías para encontrar el paquete al que pertenece un
-    determinado archivo.
+13. ¿Cómo procederías para encontrar el paquete al que pertenece un
+    determinado fichero?
 	
-14. ¿Que procedimientos emplearías para eliminar liberar la cache en
-    cuanto a descargas de paquetería?
+14. ¿Que procedimientos emplearías para liberar la caché en cuanto a
+    descargas de paquetería?
+
+1.  Realiza la instalación del servidor de bases de datos MariaDB
+    pasando previamente los valores de los parámetros de configuración
+    como variables de entorno.
+	
+1.  Reconfigura el paquete locales de tu equipo, añadiendo una
+    localización que no exista previamente. Comprueba a modificar las
+    variables de entorno correspondientes para que la sesión del
+    usuario utilice otra localización.
+	
+1.  Interrumpe la configuración de un paquete y explica los pasos a
+    dar para continuar la instalación.
+	
+15. Explica la instrucción que utilizarías para hacer una
+    actualización completa de todos los paquetes de tu sistema de
+    manera completamente no interactiva
        	
 ## Trabajo con ficheros .deb
 
