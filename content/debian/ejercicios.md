@@ -55,7 +55,7 @@ una máquina de versión anterior realizar las siguientes acciones:
 14. ¿Que procedimientos emplearías para liberar la caché en cuanto a
     descargas de paquetería?
 
-1.  Realiza la instalación del servidor de bases de datos MariaDB
+1.  Realiza la instalación del paquete `keyboard-configuration`
     pasando previamente los valores de los parámetros de configuración
     como variables de entorno.
 	
