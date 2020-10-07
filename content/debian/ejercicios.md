@@ -70,7 +70,9 @@ una máquina de versión anterior realizar las siguientes acciones:
 15. Explica la instrucción que utilizarías para hacer una
     actualización completa de todos los paquetes de tu sistema de
     manera completamente no interactiva
-       	
+    
+1.  Bloquea la actualización de determinados paquetes.
+
 ## Trabajo con ficheros .deb
 
 15. Descarga un paquete sin instalarlo, es decir, descarga el fichero
@@ -91,9 +93,16 @@ una máquina de versión anterior realizar las siguientes acciones:
 
 ## Trabajo con repositorios
 
-19. Añade a tu fichero sources.list los repositorios de backports y
+19. Añade a tu fichero sources.list los repositorios de buster-backports y
     sid.
-       
+
+1.  Configura el sistema APT para que los paquetes de debian buster
+    tengan mayor prioridad y por tanto sean los que se instalen por
+    defecto.
+	
+1.  Configura el sistema APT para que los paquetes de buster-backports
+    tengan mayor prioridad que los de unstable.
+	
 20. ¿Cómo añades la posibilidad de descargar paquetería de la
     arquitectura i386 en tu sistema. ¿Que comando has empleado?. Lista
     arquitecturas no nativas. ¿Cómo procederías para desechar la
@@ -106,7 +115,7 @@ una máquina de versión anterior realizar las siguientes acciones:
     stable.
 	
 23. Indica el procedimiento para descargar un paquete del repositorio
-    de backports.
+    de buster-backports.
 	
 24. Indica el procedimiento para descargar un paquete del repositorio
     de sid.

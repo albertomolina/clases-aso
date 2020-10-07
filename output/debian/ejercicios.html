@@ -114,6 +114,9 @@ una máquina de versión anterior realizar las siguientes acciones:</p>
     actualización completa de todos los paquetes de tu sistema de
     manera completamente no interactiva</p>
 </li>
+<li>
+<p>Bloquea la actualización de determinados paquetes.</p>
+</li>
 </ol>
 <h2>Trabajo con ficheros .deb</h2>
 <ol>
@@ -141,8 +144,17 @@ una máquina de versión anterior realizar las siguientes acciones:</p>
 <h2>Trabajo con repositorios</h2>
 <ol>
 <li>
-<p>Añade a tu fichero sources.list los repositorios de backports y
+<p>Añade a tu fichero sources.list los repositorios de buster-backports y
     sid.</p>
+</li>
+<li>
+<p>Configura el sistema APT para que los paquetes de debian buster
+    tengan mayor prioridad y por tanto sean los que se instalen por
+    defecto.</p>
+</li>
+<li>
+<p>Configura el sistema APT para que los paquetes de buster-backports
+    tengan mayor prioridad que los de unstable.</p>
 </li>
 <li>
 <p>¿Cómo añades la posibilidad de descargar paquetería de la
@@ -160,7 +172,7 @@ una máquina de versión anterior realizar las siguientes acciones:</p>
 </li>
 <li>
 <p>Indica el procedimiento para descargar un paquete del repositorio
-    de backports.</p>
+    de buster-backports.</p>
 </li>
 <li>
 <p>Indica el procedimiento para descargar un paquete del repositorio
