@@ -11,6 +11,14 @@ date: 2020-10-04
 * [Vagrantfile]({static}/doc/Vagrantfile)
 * [Ejercicios de dpkg/apt]({filename}/debian/ejercicios.md)
 
+**Tarea evaluable**
+
+Elige una de las siguientes tareas que se te asignará en redmine:
+
+1. [Script para seleccionar paquetes por repositorio]({filename}/debian/tarea-script.md)
+1. [Modificación completa de la arquitectura]({filename}/debian/tarea-arq.md)
+1. [Creación de un sistema automatizado de instalación]({filename}/debian/tarea-instalacion.md)
+
 **Enlaces**
 
 * [www.debian.org - Debian Reference](https://www.debian.org/doc/manuals/debian-reference/index.en.html)
