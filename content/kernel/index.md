@@ -4,7 +4,7 @@ date: 10/12/2020
 
 Puntos a tratar en esta unidad:
 
-1. Características principales de los sistemas operativos
+1. Características principales de los sistemas operativos [Vídeo](https://youtu.be/qcQo5Yffll0)
 1. Tipos de kérnel. Características del kérnel linux
 1. Manejo de módulos de linux: modprobe, lsmod, depmod, etc.
 1. Ficheros de cabeceras del núcleo. Compilación de módulos
@@ -15,6 +15,11 @@ Puntos a tratar en esta unidad:
 * [sistemas-operativos.pdf]({static}/doc/sistemas-operativos.pdf)
 * [kernel.pdf]({static}/doc/kernel.pdf)
 * [kernel_linux.pdf]({static}/doc/kernel_linux.pdf)
+
+**Vídeos**
+
+* [Introducción al tema](https://www.youtube.com/watch?v=t57Y7cNAv7k)
+* [Intro a los sistemas operativos](https://youtu.be/qcQo5Yffll0)
 
 **Ejercicios**
 
