@@ -1,6 +1,6 @@
-title: El kernel linux
+title: El kérnel linux
 slug: kernel/index
-date: 03/10/2020
+date: 10/12/2020
 
 Puntos a tratar en esta unidad:
 
@@ -15,6 +15,15 @@ Puntos a tratar en esta unidad:
 * [sistemas-operativos.pdf]({static}/doc/sistemas-operativos.pdf)
 * [kernel.pdf]({static}/doc/kernel.pdf)
 * [kernel_linux.pdf]({static}/doc/kernel_linux.pdf)
+
+**Ejercicios**
+
+* [Ejercicios de módulos]({filename}./ejercicios-modulos.md)
+
+**Tareas**
+
+1. [Compilación de un programa en C utilizando un Makefile]({filename}./makefile.md)
+1. [Compilación de un kérnel linux a medida]({filename}./compilacion-kernel.md)
 
 **Enlaces**
 
