@@ -1,7 +1,6 @@
 title: Índice del curso
 slug: aso
-date: 2019-09-13
-modified: 2019-09-14
+date: 2020-10-13
 save_as: index.html
 
 Curso de Administración de Sistemas Operativos (ASO) correspondiente al
