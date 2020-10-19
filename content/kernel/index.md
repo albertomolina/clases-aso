@@ -39,6 +39,7 @@ Puntos a tratar en esta unidad:
 
 * [Una historia de UNIX: en memoria de Dennis Ritchie](http://architecnologia.es/una-historia-de-unix-en-memoria-de-dennis-ritchie)
 * [entredevsyops: Podcast 59: Microkernels con Sergio López](https://www.entredevyops.es/podcasts/podcast-59.html)
+* [The Linux kernel user’s and administrator’s guide](https://www.kernel.org/doc/html/latest/admin-guide/)
 * [https://kernel-team.pages.debian.net/kernel-handbook/](https://kernel-team.pages.debian.net/kernel-handbook/)
 * [Linux Kernel in a Nutshell](http://www.kroah.com/lkn/)
 * [Wikipedia: Protection ring](https://en.wikipedia.org/wiki/Protection_ring)
