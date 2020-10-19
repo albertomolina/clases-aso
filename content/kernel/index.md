@@ -6,7 +6,7 @@ Puntos a tratar en esta unidad:
 
 1. Características principales de los sistemas operativos [Vídeo. Intro a los sistemas operativos](https://youtu.be/qcQo5Yffll0)
 1. Tipos de kérnel [Vídeo. Tipos de kérnel](https://youtu.be/fmU3if8b_1A)
-1. Características del kérnel linux
+1. Características del kérnel linux [Vídeo. El kérnel linux](https://www.youtube.com/watch?v=kMcmnPS0Yb4)
 1. Manejo de módulos de linux: modprobe, lsmod, depmod, etc.
 1. Modificar parámetros del kérnel linux en el arranque o en tiempo de ejecución
 1. Ficheros de cabeceras del núcleo. Compilación de módulos
@@ -23,6 +23,7 @@ Puntos a tratar en esta unidad:
 * [Introducción al tema](https://www.youtube.com/watch?v=t57Y7cNAv7k)
 * [Intro a los sistemas operativos](https://youtu.be/qcQo5Yffll0)
 * [Tipos de kérnel](https://youtu.be/fmU3if8b_1A)
+* [El kérnel linux](https://www.youtube.com/watch?v=kMcmnPS0Yb4)
 
 **Ejercicios**
 
