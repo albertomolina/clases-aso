@@ -22,5 +22,6 @@ Elige una de las siguientes tareas que se te asignará en redmine:
 **Enlaces**
 
 * [www.debian.org - Debian Reference](https://www.debian.org/doc/manuals/debian-reference/index.en.html)
+* [Anuncio de creación de Debian. 16 agosto 1993](https://groups.google.com/g/comp.os.linux.development/c/Md3Modzg5TU/m/xty88y5OLaMJ)
 * [Debian GNU/Linux Installation Guide](https://www.debian.org/releases/stable/amd64/index.en.html)
 * [debian.org - Release critical bugs](https://bugs.debian.org/release-critical/)
