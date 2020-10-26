@@ -9,7 +9,7 @@ Puntos a tratar en esta unidad:
 1. Características del kérnel linux [Vídeo. El kérnel linux](https://www.youtube.com/watch?v=kMcmnPS0Yb4)
 1. Manejo de módulos de linux: modprobe, lsmod, depmod, etc. [Vídeo. Manejo de módulos del kérnel linux](https://youtu.be/Gn58lKi7byE)
 1. Modificar parámetros del kérnel linux en el arranque o en tiempo de ejecución [Vídeo. Parámetros del kérnel](https://youtu.be/lwcPr_7fceo)
-1. Ficheros de cabeceras del núcleo. Compilación de módulos
+1. Ficheros de cabeceras del núcleo. Compilación de módulos [DKMS. Compilación de módulos de linux](https://youtu.be/hkT4WGxrFUg)
 1. Compilación del kérnel
 
 **Documentación**
@@ -27,6 +27,7 @@ Puntos a tratar en esta unidad:
 * [El kérnel linux](https://www.youtube.com/watch?v=kMcmnPS0Yb4)
 * [Manejo de módulos del kérnel linux](https://youtu.be/Gn58lKi7byE)
 * [Parámetros del kérnel](https://youtu.be/lwcPr_7fceo)
+* [DKMS. Compilación de módulos de linux](https://youtu.be/hkT4WGxrFUg)
 
 **Ejercicios**
 
