@@ -45,21 +45,21 @@ y la consola gráfica (texto).</p>
 <li>Instala el paquete linux-source correspondiente al núcleo que estés
    usando en tu máquina</li>
 <li>Crea un directorio de trabajo (p.ej. mkdir ~/Linux)</li>
-<li>Descomprime el código fuente del kérnel dentro del directorio de
-   trabajo:</li>
-</ol>
+<li>
+<p>Descomprime el código fuente del kérnel dentro del directorio de
+   trabajo:</p>
 <div class="highlight"><pre><span></span><span class="n">tar</span> <span class="n">xf</span> <span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">src</span><span class="o">/</span><span class="n">linux</span><span class="o">-</span><span class="k">source</span><span class="o">-</span><span class="p">...</span> <span class="o">~/</span><span class="n">Linux</span><span class="o">/</span>
 </pre></div>
 
 
-<ol>
-<li>Utiliza como punto de partida la configuración actual del núcleo:</li>
-</ol>
+</li>
+<li>
+<p>Utiliza como punto de partida la configuración actual del núcleo:</p>
 <div class="highlight"><pre><span></span><span class="n">make</span> <span class="n">oldconfig</span>
 </pre></div>
 
 
-<ol>
+</li>
 <li>
 <p>Cuenta el número de componentes que se han configurado para incluir
    en vmlinuz o como módulos.</p>
@@ -68,26 +68,22 @@ y la consola gráfica (texto).</p>
 <p>Configura el núcleo en función de los módulos que está utilizando
    tu equipo (para no incluir en la compilación muchos controladores
    de dispositivos que no utiliza el equipo):</p>
-</li>
-</ol>
 <div class="highlight"><pre><span></span><span class="n">make</span> <span class="n">localmodconfig</span>
 </pre></div>
 
 
-<ol>
+</li>
 <li>
 <p>Vuelve a contar el número de componentes que se han configurado
    para incluir en vmlinuz o como módulos.</p>
 </li>
 <li>
 <p>Realiza la primera compilación:</p>
-</li>
-</ol>
 <div class="highlight"><pre><span></span><span class="n">make</span> <span class="o">-</span><span class="n">j</span> <span class="o">&lt;</span><span class="n">número</span> <span class="n">de</span> <span class="n">hilos</span><span class="o">&gt;</span> <span class="n">bindeb</span><span class="o">-</span><span class="n">pkg</span>
 </pre></div>
 
 
-<ol>
+</li>
 <li>
 <p>Instala el núcleo resultando de la compilación, reinicia el equipo
    y comprueba que funciona adecuadamente.</p>
@@ -96,28 +92,24 @@ y la consola gráfica (texto).</p>
 <p>Si ha funcionado adecuadamente, utilizamos la configuración del
    paso anterior como punto de partida y vamos a reducir el tamaño del
    mismo, para ello vamos a seleccionar elemento a elemento.</p>
-</li>
-</ol>
 <div class="highlight"><pre><span></span><span class="n">cp</span> <span class="o">/</span><span class="n">boot</span><span class="o">/</span><span class="n">config</span><span class="o">-</span><span class="p">...</span> <span class="p">.</span><span class="n">config</span>
 <span class="n">make</span> <span class="n">clean</span>
 <span class="n">make</span> <span class="n">xconfig</span>
 </pre></div>
 
 
-<ol>
+</li>
 <li>
 <p>Vuelve a contar el número de componentes que se han configurado
    para incluir en vmlinuz o como módulos.</p>
 </li>
 <li>
 <p>Vuelve a compilar:</p>
-</li>
-</ol>
 <div class="highlight"><pre><span></span><span class="n">make</span> <span class="o">-</span><span class="n">j</span> <span class="o">&lt;</span><span class="n">número</span> <span class="n">de</span> <span class="n">hilos</span><span class="o">&gt;</span> <span class="n">bindeb</span><span class="o">-</span><span class="n">pkg</span>
 </pre></div>
 
 
-<ol>
+</li>
 <li>
 <p>Si se produce un error en la compilación, vuelve al paso de
    configuración, si la compilación termina correctamente, instala el
