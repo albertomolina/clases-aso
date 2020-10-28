@@ -27,6 +27,8 @@ etc.) para la docencia semipresencial durante el curso 2020/21.
 
 ## [Copias de seguridad](/backup/)
 
+## [Sistemas de empaquetado de software independientes](/altpack/)
+
 ## [systemd](/systemd/)
 
 ## [Recolección de métricas, registro y monitorización de sistemas](/monit/)
