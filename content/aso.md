@@ -1,6 +1,6 @@
 title: Índice del curso
 slug: aso
-date: 2020-10-13
+date: 2020-10-29
 save_as: index.html
 
 Curso de Administración de Sistemas Operativos (ASO) correspondiente al
@@ -12,6 +12,13 @@ Hermanas (Sevilla).
 Este sitio se va a utilizar para alojar todos los materiales que se
 vayan desarrollando (presentaciones, listados de ejercicios, vídeos,
 etc.) para la docencia semipresencial durante el curso 2020/21.
+
+En muchos documentos se pone de forma expresa, pero como norma
+general, puedes usar y reutilizar todos los materiales que aparecen en
+este curso de acuerdo a la licencia
+[cc-by-sa](https://creativecommons.org/licenses/by-sa/4.0/), salvo los
+que aparecen como enlaces a otros sitios, que tendrán su propia
+licencia.
 
 ## [Introducción](/intro/)
 
