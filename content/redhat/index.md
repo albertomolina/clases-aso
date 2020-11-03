@@ -2,7 +2,17 @@ title: Red Hat y derivadas
 slug: redhat/index
 date: 2019-09-14
 
-[redhat.pdf]({static}/doc/redhat.pdf)
+**Documentación**
+
+* [redhat.pdf]({static}/doc/redhat.pdf)
+
+**Ejercicios**
+
+* [Gestión de paquetes](ejercicios.html)
+
+**Tarea**
+
+* [Actualización a CentOS 8](centos8.html)
 
 **Enlaces**
 
@@ -11,6 +21,3 @@ date: 2019-09-14
 * [How to use yum command on CentOS/RHEL](https://www.cyberciti.biz/faq/rhel-centos-fedora-linux-yum-command-howto/)
 * [DNF Command Examples For Beginners](https://www.ostechnix.com/dnf-command-examples-beginners/)
 
-**Ejercicios**
-
-[Gestión de paquetes](ejercicios.html)
