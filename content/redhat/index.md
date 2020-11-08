@@ -6,6 +6,10 @@ date: 2019-09-14
 
 * [redhat.pdf]({static}/doc/redhat.pdf)
 
+**Vídeos**
+
+* [Red Hat](https://youtu.be/bYFXg-pzdmw)
+
 **Ejercicios**
 
 * [Gestión de paquetes](ejercicios.html)
