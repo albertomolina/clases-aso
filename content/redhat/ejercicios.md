@@ -10,7 +10,7 @@ date: 2019-09-14
 1. Explica qué comando utilizarías para ver la información del paquete
 kernel instalado
 1. Instala el repositorio adicional "elrepo" e instala el último
-núcleo disponible del mismo (4.3.X)
+núcleo disponible del mismo (5.9.X)
 1. Busca las versiones disponibles para instalar del núcleo linux e
 instala la más nueva
 1. Muestra el contenido del paquete del último núcleo instalado
