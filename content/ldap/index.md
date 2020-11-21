@@ -6,12 +6,11 @@ Puntos a tratar en esta unidad:
 
 1. Introducción a los servicios de directorio
 1. Características de LDAP
+1. Instalación y configuración del servidor openLDAP
+1. Clientes LDAP: ldap-utils y Apache Directory Studio.
 1. Esquemas, clases y objetos.
 1. LDAP Data Interchange Format (LDIF)
 1. Consultas, creación y modificación de objetos del directorio
-1. Clientes LDAP: ldap-utils y Apache Directory Studio.
-1. Instalación y configuración del servidor openLDAP
-1. Aplicaciones simple de LDAP: Libreta de direcciones de correo-e con LDAP
 
 **Ejercicios**
 
@@ -22,7 +21,9 @@ Puntos a tratar en esta unidad:
 * [Grupos en UNIX (Linux)](https://youtu.be/Kxa8n3Go4qM)
 * [Name Service Switch (nss)](https://youtu.be/0tV6OXzzUtw)
 * [Introducción a LDAP](https://youtu.be/v8mMiQCahok)
-
+* [Instalación de un servidor OpenLDAP (slapd)](https://youtu.be/B_A5rMOrTds)
+* [slapd. Ficheros y directorios de configuración](https://youtu.be/S8BBU_RqHvk)
+* [Instalación y configuración de ldap-utils](https://youtu.be/Os7SSsqlltc)
 
 **Enlaces**
 
