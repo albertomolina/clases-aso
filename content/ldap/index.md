@@ -22,9 +22,11 @@ Puntos a tratar en esta unidad:
 * [Name Service Switch (nss)](https://youtu.be/0tV6OXzzUtw)
 * [Introducción a LDAP](https://youtu.be/v8mMiQCahok)
 * [LDAP. ObjectClasses y atributos](https://youtu.be/Y5UQV3JuYCc)
+* [LDAP. Esquemas](https://youtu.be/cAeNipgLlFo)
 * [Instalación de un servidor OpenLDAP (slapd)](https://youtu.be/B_A5rMOrTds)
 * [slapd. Ficheros y directorios de configuración](https://youtu.be/S8BBU_RqHvk)
 * [Instalación y configuración de ldap-utils](https://youtu.be/Os7SSsqlltc)
+* [LDAP. Creación del primer objeto](https://youtu.be/PBucREz-nmU)
 
 **Enlaces**
 
