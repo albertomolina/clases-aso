@@ -20,44 +20,31 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="../ldap/index.html">El servicio de directorio. LDAP</a></h1>
+                    <h1 class="entry-title"><a href="../ldap/ejercicios-clientes.md.html">Ejercicios de clientes LDAP</a></h1>
 <footer class="post-info">
-        <span>sáb 21 noviembre 2020</span>
+        <span>mar 01 diciembre 2020</span>
 
-</footer><!-- /.post-info --><p>Puntos a tratar en esta unidad:</p>
-<ol>
-<li>Introducción a los servicios de directorio</li>
-<li>Características de LDAP</li>
-<li>Instalación y configuración del servidor openLDAP</li>
-<li>Clientes LDAP: ldap-utils y Apache Directory Studio.</li>
-<li>Esquemas, clases y objetos.</li>
-<li>LDAP Data Interchange Format (LDIF)</li>
-<li>Consultas, creación y modificación de objetos del directorio</li>
+</footer><!-- /.post-info --><ol>
+<li>Configura tu equipo para que las aplicaciones de línea de comandos
+   usen adecuadamente el certificado raíz <code>gonzalonazareno.crt</code>.</li>
+<li>Configura <code>ldap-utils</code> (fichero <code>/etc/ldap/ldap.conf</code>) para que se
+   utilice el servidor ldaps://ldap.gonzalonazareno.org y realiza una
+   búsqueda para encontrar el objeto en el que estás definido tú a
+   través de tu nombre de usuario:</li>
 </ol>
-<p><strong>Ejercicios</strong></p>
-<p><strong>Vídeos</strong></p>
-<ul>
-<li><a href="https://youtu.be/qpafDqykmss">Linux PAM: Pluggable Authentication Modules</a></li>
-<li><a href="https://youtu.be/Vzqbx4A2zcQ">Autenticación con contraseña en linux: pam_unix</a></li>
-<li><a href="https://youtu.be/Kxa8n3Go4qM">Grupos en UNIX (Linux)</a></li>
-<li><a href="https://youtu.be/0tV6OXzzUtw">Name Service Switch (nss)</a></li>
-<li><a href="https://youtu.be/v8mMiQCahok">Introducción a LDAP</a></li>
-<li><a href="https://youtu.be/Y5UQV3JuYCc">LDAP. ObjectClasses y atributos</a></li>
-<li><a href="https://youtu.be/cAeNipgLlFo">LDAP. Esquemas</a></li>
-<li><a href="https://youtu.be/B_A5rMOrTds">Instalación de un servidor OpenLDAP (slapd)</a></li>
-<li><a href="https://youtu.be/S8BBU_RqHvk">slapd. Ficheros y directorios de configuración</a></li>
-<li><a href="https://youtu.be/Os7SSsqlltc">Instalación y configuración de ldap-utils</a></li>
-<li><a href="https://youtu.be/PBucREz-nmU">LDAP. Creación del primer objeto</a></li>
-</ul>
-<p><strong>Enlaces</strong></p>
-<ul>
-<li><a href="http://zytrax.com/books/ldap/">Zytrax: LDAP for Rocket Scientists</a></li>
-<li><a href="https://www.iana.org/assignments/ldap-parameters/ldap-parameters.xhtml">IANA: Lightweight Directory Access Protocol (LDAP) Parameters</a></li>
-<li><a href="https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format">Wikipedia. LDIF</a></li>
-<li><a href="http://www.openldap.org/doc/admin24/">OpenLDAP Software 2.4 Administrator's Guide</a></li>
-</ul>                </article>
+<div class="highlight"><pre><span></span><span class="n">ldapsearch</span> <span class="o">-</span><span class="n">x</span> <span class="n">uid</span><span class="o">=&lt;</span><span class="n">nombre</span> <span class="n">de</span> <span class="n">usuario</span><span class="o">&gt;</span>
+</pre></div>
+
+
+<ol>
+<li>Instala <code>Apache Directory Studio</code> en tu equipo y configúralo para
+   que pueda usar la conexión a <code>ldaps://ldap.gonzalonazareno.org</code>.</li>
+<li>Modifica la entrada correspondiente a tu usuario de LDAP con ADS y
+   añade una imagen en formato JPEG de 20 KiB como máximo.</li>
+</ol>                </article>
 <p class="paginator">
-    Page 1 / 1
+    Page 1 / 2
+        <a href="../category/ldap2.html">&raquo;</a>
 </p>
             </aside><!-- /#featured -->
             </ol><!-- /#posts-list -->

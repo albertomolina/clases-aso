@@ -14,6 +14,8 @@ Puntos a tratar en esta unidad:
 
 **Ejercicios**
 
+* [Utilización de clientes LDAP]({filename}./ejercicios-clientes.md)
+
 **Vídeos**
 
 * [Linux PAM: Pluggable Authentication Modules](https://youtu.be/qpafDqykmss)
@@ -27,6 +29,8 @@ Puntos a tratar en esta unidad:
 * [slapd. Ficheros y directorios de configuración](https://youtu.be/S8BBU_RqHvk)
 * [Instalación y configuración de ldap-utils](https://youtu.be/Os7SSsqlltc)
 * [LDAP. Creación del primer objeto](https://youtu.be/PBucREz-nmU)
+* [Instalación de certificado raíz de una autoridad certificadora local en Linux](https://youtu.be/SCbvSur43L8)
+* [Uso básico de Apache Directory Studio](https://youtu.be/gRvaiQqTlIc)
 
 **Enlaces**
 
