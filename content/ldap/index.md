@@ -41,3 +41,4 @@ Puntos a tratar en esta unidad:
 * [IANA: Lightweight Directory Access Protocol (LDAP) Parameters](https://www.iana.org/assignments/ldap-parameters/ldap-parameters.xhtml)
 * [Wikipedia. LDIF](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format)
 * [OpenLDAP Software 2.4 Administrator's Guide](http://www.openldap.org/doc/admin24/)
+* [Añadir un nuevo esquema en OpenLDAP 2.4](https://albertomolina.wordpress.com/2010/12/02/anadir-un-nuevo-esquema-en-openldap-2-4/)
