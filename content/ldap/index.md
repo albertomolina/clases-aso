@@ -31,6 +31,8 @@ Puntos a tratar en esta unidad:
 * [LDAP. Creación del primer objeto](https://youtu.be/PBucREz-nmU)
 * [Instalación de certificado raíz de una autoridad certificadora local en Linux](https://youtu.be/SCbvSur43L8)
 * [Uso básico de Apache Directory Studio](https://youtu.be/cbHQ1D0AGe8)
+* [Estructura del árbol con unidades organizativas](https://youtu.be/z92ga7WWvdM)
+* [Creación de usuarios posixAccount](https://youtu.be/sbSGIvQNzn0)
 
 **Enlaces**
 
