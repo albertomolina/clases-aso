@@ -33,6 +33,7 @@ Puntos a tratar en esta unidad:
 * [Uso básico de Apache Directory Studio](https://youtu.be/cbHQ1D0AGe8)
 * [Estructura del árbol con unidades organizativas](https://youtu.be/z92ga7WWvdM)
 * [Creación de usuarios posixAccount](https://youtu.be/sbSGIvQNzn0)
+* [Modificación de un objeto. ldapmodify](https://youtu.be/P8H_F6Hn2Bk)
 
 **Enlaces**
 
