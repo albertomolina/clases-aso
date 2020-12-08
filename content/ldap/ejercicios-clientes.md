@@ -1,5 +1,5 @@
 title: Ejercicios de clientes LDAP
-slug: ldap/ejercicios-clientes.md
+slug: ldap/ejercicios-clientes
 date: 2020-12-1
 
 1. Configura tu equipo para que las aplicaciones de línea de comandos

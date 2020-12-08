@@ -12,10 +12,6 @@ Puntos a tratar en esta unidad:
 1. LDAP Data Interchange Format (LDIF)
 1. Consultas, creación y modificación de objetos del directorio
 
-**Ejercicios**
-
-* [Utilización de clientes LDAP]({filename}./ejercicios-clientes.md)
-
 **Vídeos**
 
 * [Linux PAM: Pluggable Authentication Modules](https://youtu.be/qpafDqykmss)
@@ -34,6 +30,19 @@ Puntos a tratar en esta unidad:
 * [Estructura del árbol con unidades organizativas](https://youtu.be/z92ga7WWvdM)
 * [Creación de usuarios posixAccount](https://youtu.be/sbSGIvQNzn0)
 * [Modificación de un objeto. ldapmodify](https://youtu.be/P8H_F6Hn2Bk)
+* [Agregar samba.schema a openLDAP](https://youtu.be/dc6Fd4XbJcI)
+
+**Ejercicios**
+
+* [Utilización de clientes LDAP]({filename}./ejercicios-clientes.md)
+
+**Tareas**
+
+* [Instalación y configuración inicial de OpenLDAP]({filename}./tarea-instalacion-ldap.md)
+* [LDAPs]({filename}./tarea-ldaps.md)
+* [Configurar LDAP en alta disponibilidad]({filename}./tarea-ldap-ha.md)
+* [Poblar un directorio LDAP desde un fichero CSV]({filename}./tarea-poblar-ldap.md)
+* [Usuarios, grupos y ACLs en LDAP]({filename}./tarea-acl.md)
 
 **Enlaces**
 

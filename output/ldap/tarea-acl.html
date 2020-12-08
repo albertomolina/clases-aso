@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="utf-8" />
+        <title>Usuarios, grupos y ACLs en LDAP</title>
+        <link rel="stylesheet" href="../theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="../">Administración de Sistemas Operativos </a></h1>
+                <nav><ul>
+                </ul>
+                </nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="../ldap/tarea-acl.html" rel="bookmark"
+           title="Permalink to Usuarios, grupos y ACLs en LDAP">Usuarios, grupos y ACLs en LDAP</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <span>mar 08 diciembre 2020</span>
+
+</footer><!-- /.post-info -->      <ul>
+<li>Crea 10 usuarios con los nombres que prefieras en LDAP, esos
+usuarios deben ser objetos de los tipos posixAccount e
+inetOrgPerson. Estos usuarios tendrán un atributo userPassword.</li>
+<li>Crea 3 grupos en LDAP dentro de una unidad organizativa diferente
+que sean objetos del tipo groupOfNames. Estos grupos serán:
+comercial, almacen y admin</li>
+<li>Añade usuarios que pertenezcan a:<ul>
+<li>Solo al grupo comercial</li>
+<li>Solo al grupo almacen</li>
+<li>Al grupo comercial y almacen</li>
+<li>Al grupo admin y comercial</li>
+<li>Solo al grupo admin</li>
+<li>Modifica OpenLDAP apropiadamente para que se pueda obtener los
+grupos a los que pertenece cada usuario a través del atributo
+"memberOf".</li>
+</ul>
+</li>
+<li>Crea las ACLs necesarias para que los usuarios del grupo almacen
+puedan ver todos los atributos de todos los usuarios pero solo
+puedan modificar las suyas.</li>
+<li>Crea las ACLs necesarias para que los usuarios del grupo admin
+puedan ver y modificar cualquier atributo de cualquier objeto.</li>
+</ul>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <p>Powered by <a href="http://getpelican.com/">Pelican</a>. Theme <a href="https://github.com/blueicefield/pelican-blueidea/">blueidea</a>, inspired by the default theme.</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

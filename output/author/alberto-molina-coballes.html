@@ -20,30 +20,36 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="../ldap/ejercicios-clientes.md.html">Ejercicios de clientes LDAP</a></h1>
+                    <h1 class="entry-title"><a href="../ldap/tarea-acl.html">Usuarios, grupos y ACLs en LDAP</a></h1>
 <footer class="post-info">
-        <span>mar 01 diciembre 2020</span>
+        <span>mar 08 diciembre 2020</span>
 
-</footer><!-- /.post-info --><ol>
-<li>Configura tu equipo para que las aplicaciones de línea de comandos
-   usen adecuadamente el certificado raíz <code>gonzalonazareno.crt</code>.</li>
-<li>Configura <code>ldap-utils</code> (fichero <code>/etc/ldap/ldap.conf</code>) para que se
-   utilice el servidor ldaps://ldap.gonzalonazareno.org y realiza una
-   búsqueda para encontrar el objeto en el que estás definido tú a
-   través de tu nombre de usuario:</li>
-</ol>
-<div class="highlight"><pre><span></span><span class="n">ldapsearch</span> <span class="o">-</span><span class="n">x</span> <span class="n">uid</span><span class="o">=&lt;</span><span class="n">nombre</span> <span class="n">de</span> <span class="n">usuario</span><span class="o">&gt;</span>
-</pre></div>
-
-
-<ol>
-<li>Instala <code>Apache Directory Studio</code> en tu equipo y configúralo para
-   que pueda usar la conexión a <code>ldaps://ldap.gonzalonazareno.org</code>.</li>
-<li>Modifica la entrada correspondiente a tu usuario de LDAP con ADS y
-   añade una imagen en formato JPEG de 20 KiB como máximo.</li>
-</ol>                </article>
+</footer><!-- /.post-info --><ul>
+<li>Crea 10 usuarios con los nombres que prefieras en LDAP, esos
+usuarios deben ser objetos de los tipos posixAccount e
+inetOrgPerson. Estos usuarios tendrán un atributo userPassword.</li>
+<li>Crea 3 grupos en LDAP dentro de una unidad organizativa diferente
+que sean objetos del tipo groupOfNames. Estos grupos serán:
+comercial, almacen y admin</li>
+<li>Añade usuarios que pertenezcan a:<ul>
+<li>Solo al grupo comercial</li>
+<li>Solo al grupo almacen</li>
+<li>Al grupo comercial y almacen</li>
+<li>Al grupo admin y comercial</li>
+<li>Solo al grupo admin</li>
+<li>Modifica OpenLDAP apropiadamente para que se pueda obtener los
+grupos a los que pertenece cada usuario a través del atributo
+"memberOf".</li>
+</ul>
+</li>
+<li>Crea las ACLs necesarias para que los usuarios del grupo almacen
+puedan ver todos los atributos de todos los usuarios pero solo
+puedan modificar las suyas.</li>
+<li>Crea las ACLs necesarias para que los usuarios del grupo admin
+puedan ver y modificar cualquier atributo de cualquier objeto.</li>
+</ul>                </article>
 <p class="paginator">
-    Page 1 / 25
+    Page 1 / 30
         <a href="../author/alberto-molina-coballes2.html">&raquo;</a>
 </p>
             </aside><!-- /#featured -->
