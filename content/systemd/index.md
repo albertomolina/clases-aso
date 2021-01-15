@@ -11,7 +11,7 @@ Puntos a tratar en esta unidad:
 
 **Documentación**
 
-* [systemd.pdf]({static}/doc/systemd.pdf)
+* [systemd.pdf](https://raw.githubusercontent.com/albertomolina/beamer-focus/main/systemd.pdf)
 
 **Enlaces**
 
