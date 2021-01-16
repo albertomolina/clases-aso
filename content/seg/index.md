@@ -15,7 +15,11 @@ date: 2020-01-23
 
 **Documentación**
 
-* [permisos-sf.pdf]({static}/doc/permisos_sf.pdf)
+* [permisos-sf.pdf](https://raw.githubusercontent.com/albertomolina/beamer-focus/main/permisos_sf.pdf)
+* [chattrs.pdf](https://raw.githubusercontent.com/albertomolina/beamer-focus/main/chattrs.pdf)
+* [xattrs.pdf](https://raw.githubusercontent.com/albertomolina/beamer-focus/main/xattrs.pdf)
+* [kernel_capabilities.pdf](https://raw.githubusercontent.com/albertomolina/beamer-focus/main/kernel_capabilities.pdf)
+* [acl-sf.pdf](https://raw.githubusercontent.com/albertomolina/beamer-focus/main/acl-sf.pdf)
 
 **Enlaces**
 
