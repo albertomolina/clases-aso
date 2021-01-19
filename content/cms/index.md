@@ -1,6 +1,6 @@
 title: Gestión automática de la configuración
-slug: scm/index
-date: 2020-03-27
+slug: cms/index
+date: 2021-01-19
 
 1. Infraestructura como código
     * Orquestación de escenarios
@@ -13,8 +13,8 @@ date: 2020-03-27
 **Documentación**
 
 * [Programando infraestructura en la nube](https://iesgn.github.io/presentacion-ual17/#/)
-* [ansible]({static}/doc/ansible.pdf)
-* [Taller de ansible](https://github.com/iesgn/talleres_asir_iesgn/tree/master/ansible)
+* [ansible](https://raw.githubusercontent.com/albertomolina/beamer-focus/main/ansible.pdf)
+* [Taller de ansible](https://github.com/iesgn/talleres_asir_iesgn/blob/master/ansible/ansible.md)
 
 
 **Enlaces**

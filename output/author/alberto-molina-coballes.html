@@ -20,33 +20,38 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="../ldap/tarea-acl.html">Usuarios, grupos y ACLs en LDAP</a></h1>
+                    <h1 class="entry-title"><a href="../cms/index.html">Gestión automática de la configuración</a></h1>
 <footer class="post-info">
-        <span>mar 08 diciembre 2020</span>
+        <span>mar 19 enero 2021</span>
 
-</footer><!-- /.post-info --><ul>
-<li>Crea 10 usuarios con los nombres que prefieras en LDAP, esos
-usuarios deben ser objetos de los tipos posixAccount e
-inetOrgPerson. Estos usuarios tendrán un atributo userPassword.</li>
-<li>Crea 3 grupos en LDAP dentro de una unidad organizativa diferente
-que sean objetos del tipo groupOfNames. Estos grupos serán:
-comercial, almacen y admin</li>
-<li>Añade usuarios que pertenezcan a:<ul>
-<li>Solo al grupo comercial</li>
-<li>Solo al grupo almacen</li>
-<li>Al grupo comercial y almacen</li>
-<li>Al grupo admin y comercial</li>
-<li>Solo al grupo admin</li>
-<li>Modifica OpenLDAP apropiadamente para que se pueda obtener los
-grupos a los que pertenece cada usuario a través del atributo
-"memberOf".</li>
+</footer><!-- /.post-info --><ol>
+<li>
+<p>Infraestructura como código</p>
+<ul>
+<li>Orquestación de escenarios</li>
+<li>Configuración de sistemas o aplicaciones</li>
+<li>Respuesta ante eventos</li>
 </ul>
 </li>
-<li>Crea las ACLs necesarias para que los usuarios del grupo almacen
-puedan ver todos los atributos de todos los usuarios pero solo
-puedan modificar las suyas.</li>
-<li>Crea las ACLs necesarias para que los usuarios del grupo admin
-puedan ver y modificar cualquier atributo de cualquier objeto.</li>
+<li>
+<p>Sistemas de gestión de la configuración</p>
+<ul>
+<li>Ansible</li>
+</ul>
+</li>
+</ol>
+<p><strong>Documentación</strong></p>
+<ul>
+<li><a href="https://iesgn.github.io/presentacion-ual17/#/">Programando infraestructura en la nube</a></li>
+<li><a href="https://raw.githubusercontent.com/albertomolina/beamer-focus/main/ansible.pdf">ansible</a></li>
+<li><a href="https://github.com/iesgn/talleres_asir_iesgn/blob/master/ansible/ansible.md">Taller de ansible</a></li>
+</ul>
+<p><strong>Enlaces</strong></p>
+<ul>
+<li><a href="https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html">YAML Syntax</a></li>
+<li><a href="https://github.com/ansible/ansible-examples">Ansible examples</a></li>
+<li><a href="https://docs.ansible.com/">Ansible doc</a></li>
+<li><a href="https://github.com/josedom24/automatizacion_iaw">Ejemplo de despliegue Wordpress con ansible</a></li>
 </ul>                </article>
 <p class="paginator">
     Page 1 / 30

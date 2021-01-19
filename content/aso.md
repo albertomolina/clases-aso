@@ -40,7 +40,7 @@ licencia.
 
 ## [Recolección de métricas, registro y monitorización de sistemas](/monit/)
 
-## [Gestión automática de la configuración](/scm/)
+## [Gestión automática de la configuración](/cms/)
 
 ## [Seguridad en sistemas](/seg/)
 
