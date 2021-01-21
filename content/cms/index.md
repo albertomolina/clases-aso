@@ -16,6 +16,11 @@ date: 2021-01-19
 * [ansible](https://raw.githubusercontent.com/albertomolina/beamer-focus/main/ansible.pdf)
 * [Taller de ansible](https://github.com/iesgn/talleres_asir_iesgn/blob/master/ansible/ansible.md)
 
+**Vídeos**
+
+* [Taller de Ansible (I) - Programando infraestructura en la nube](https://www.youtube.com/watch?v=cMVT1LpgvCA)
+* [Taller de Ansible (II) - Presentación de ansble](https://www.youtube.com/watch?v=bxB-lqrEbpA)
+* [Taller de Ansible (III) - Ejemplos](https://www.youtube.com/watch?v=arp50zPL3Tk)
 
 **Enlaces**
 
