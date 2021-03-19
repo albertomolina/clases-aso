@@ -1,4 +1,4 @@
-title: Seguridad en Sistemas
+title: Sistemas de cuentas centralizadas en sistemas Unix
 slug: centraliz1/index
 date: 2020-03-19
 
@@ -7,12 +7,15 @@ date: 2020-03-19
 
 **Documentación**
 
-* [krb_ldap.pdf]({filename}../doc/krb_ldap.pdf)
+* [krb_ldap.pdf]({static}../doc/krb_ldap.pdf)
 
 **Ejercicios**
 
 * [Name Service Switch (nss)]({filename}./nss.md)
 * [PAM]({filename}./pam.md)
-* [Configurar un sistema centralizado de cuentas con kerberos, LDAP y NFS4]({filename}./centralizado1.md)
+
+**Tareas**
+
+* [Configurar un sistema centralizado de cuentas con kerberos, LDAP y NFS4]({filename}./centraliz1.md)
 * [Administración del Sistema de Cuentas Centralizadas]({filename}./administracion.md)
 

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="utf-8" />
+        <title>Configurar un sistema centralizado de cuentas con kerberos, LDAP y NFS4</title>
+        <link rel="stylesheet" href="../theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="../">Administración de Sistemas Operativos </a></h1>
+                <nav><ul>
+                </ul>
+                </nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="../centraliz1/centraliz1.html" rel="bookmark"
+           title="Permalink to Configurar un sistema centralizado de cuentas con kerberos, LDAP y NFS4">Configurar un sistema centralizado de cuentas con kerberos, LDAP y NFS4</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <span>jue 19 marzo 2020</span>
+
+</footer><!-- /.post-info -->      <p>Esta tarea consiste en configurar un completo sistema centralizado de
+cuentas de usuario con kerberos, OpenLDAP y NFS4.</p>
+<p><strong>Objetivos</strong></p>
+<ul>
+<li>Comprender el funcionamiento de kerberos</li>
+<li>Aprender mecanismos de autenticación de LDAP (SASL/GSSAPI)</li>
+<li>Configurar NFS con autenticación kerberos</li>
+<li>Configurar un sistema de cuentas centralizado seguro</li>
+</ul>
+<p><strong>Pasos a realizar</strong></p>
+<ol>
+<li>Sincroniza los relojes de los dos equipos.</li>
+<li>Configura (o verifica que esté configurado) el servidor DNS en
+   todos los equipos de la red virtual.</li>
+<li>Instala y configura el servidor kerberos en el servidor. Añade
+   todos los principales que estimes oportunos. </li>
+<li>Configura (o verifica que esté configurado) OpenLDAP en el servidor
+   con objetos tipo posixAccount. </li>
+<li>Configura gssapi para la autenticación de LDAP con kerberos. </li>
+<li>Configura adecuadamente pam para realizar autenticación con
+   kerberos y gestionar los datos de la cuenta con LDAP.</li>
+<li>Crea las cuentas de usuario en el directorio /home/users del
+   servidor y expórtalas utilizando NFS4.</li>
+<li>Configura el cliente para que monte el directorio /home/users del
+   servidor de forma automática.</li>
+<li>Verifica el funcionamiento conjunto de todos los servicios, de
+   manera que un usuario pueda autenticarse de forma centralizada y su
+   cuenta se gestione con NFS4.</li>
+</ol>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <p>Powered by <a href="http://getpelican.com/">Pelican</a>. Theme <a href="https://github.com/blueicefield/pelican-blueidea/">blueidea</a>, inspired by the default theme.</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

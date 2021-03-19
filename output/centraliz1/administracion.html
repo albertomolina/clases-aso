@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="utf-8" />
+        <title>Administración del Sistema de Cuentas Centralizadas</title>
+        <link rel="stylesheet" href="../theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="../">Administración de Sistemas Operativos </a></h1>
+                <nav><ul>
+                </ul>
+                </nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="../centraliz1/administracion.html" rel="bookmark"
+           title="Permalink to Administración del Sistema de Cuentas Centralizadas">Administración del Sistema de Cuentas Centralizadas</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <span>jue 19 marzo 2020</span>
+
+</footer><!-- /.post-info -->      <p>Una vez configurado el sistema de cuentas centralizadas, queda la
+parte de la administración de usuarios, grupos y permisos.</p>
+<p>A diferencia de la administración de un dominio Windows, que se
+realiza principalmente con las consolas de administración de "usuarios
+y grupos del directorio activo" y "políticas de grupo", en sistemas
+UNIX debemos tocar los siguientes elementos:</p>
+<ul>
+<li>Políticas de contraseñas de Kerberos</li>
+<li>Listas de control de Acceso en LDAP</li>
+<li>Centralización de grupos en LDAP</li>
+<li>Permisos de ficheros UNIX</li>
+<li>Grupos UNIX</li>
+</ul>
+<p>Teniendo esto en cuenta, realiza las siguientes restricciones en
+nuestro sistema de cuentas centralizadas:</p>
+<ol>
+<li>Crea un usuario que sea root en todas las máquinas del sistema de
+   cuentas centralizadas.</li>
+<li>Crea el grupo users, cuyos miembros podrán utilizar los
+   dispositivos extraibles del equipo.</li>
+<li>Configura el directorio skel para que todos los usuarios del grupo
+   users tengan el mismo escritorio.</li>
+<li>Configura el sistema de cuotas, para que los usuarios del grupo.
+    users, tengan una cuota de 300MB en su cuenta. </li>
+<li>Crea una política de contraseñas por defecto para que las
+contraseñas de todos los usuarios nuevos tengan por lo menos 8
+caracteres.</li>
+<li>Crea un usuario invitado que no pueda utilizar ningún medio
+   extraible, pero sí pueda acceder a Internet.</li>
+</ol>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <p>Powered by <a href="http://getpelican.com/">Pelican</a>. Theme <a href="https://github.com/blueicefield/pelican-blueidea/">blueidea</a>, inspired by the default theme.</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

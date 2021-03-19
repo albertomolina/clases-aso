@@ -20,27 +20,43 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="../centraliz1/index.html">Seguridad en Sistemas</a></h1>
+                    <h1 class="entry-title"><a href="../centraliz1/administracion.html">Administración del Sistema de Cuentas Centralizadas</a></h1>
 <footer class="post-info">
         <span>jue 19 marzo 2020</span>
 
-</footer><!-- /.post-info --><ol>
-<li>Sistemas de cuentas centralizados. Similitudes y diferencias entre plataformas. Ingredientes de la "salsa".</li>
-<li>Sistema de cuentas centralizadas en GNU/Linux con Kerberos, LDAP, NFS y/o SAMBA.</li>
-</ol>
-<p><strong>Documentación</strong></p>
+</footer><!-- /.post-info --><p>Una vez configurado el sistema de cuentas centralizadas, queda la
+parte de la administración de usuarios, grupos y permisos.</p>
+<p>A diferencia de la administración de un dominio Windows, que se
+realiza principalmente con las consolas de administración de "usuarios
+y grupos del directorio activo" y "políticas de grupo", en sistemas
+UNIX debemos tocar los siguientes elementos:</p>
 <ul>
-<li><a href="../doc/krb_ldap.pdf">krb_ldap.pdf</a></li>
+<li>Políticas de contraseñas de Kerberos</li>
+<li>Listas de control de Acceso en LDAP</li>
+<li>Centralización de grupos en LDAP</li>
+<li>Permisos de ficheros UNIX</li>
+<li>Grupos UNIX</li>
 </ul>
-<p><strong>Ejercicios</strong></p>
-<ul>
-<li><a href="{filename}./nss.md">Name Service Switch (nss)</a></li>
-<li><a href="{filename}./pam.md">PAM</a></li>
-<li><a href="{filename}./centralizado1.md">Configurar un sistema centralizado de cuentas con kerberos, LDAP y NFS4</a></li>
-<li><a href="{filename}./administracion.md">Administración del Sistema de Cuentas Centralizadas</a></li>
-</ul>                </article>
+<p>Teniendo esto en cuenta, realiza las siguientes restricciones en
+nuestro sistema de cuentas centralizadas:</p>
+<ol>
+<li>Crea un usuario que sea root en todas las máquinas del sistema de
+   cuentas centralizadas.</li>
+<li>Crea el grupo users, cuyos miembros podrán utilizar los
+   dispositivos extraibles del equipo.</li>
+<li>Configura el directorio skel para que todos los usuarios del grupo
+   users tengan el mismo escritorio.</li>
+<li>Configura el sistema de cuotas, para que los usuarios del grupo.
+    users, tengan una cuota de 300MB en su cuenta. </li>
+<li>Crea una política de contraseñas por defecto para que las
+contraseñas de todos los usuarios nuevos tengan por lo menos 8
+caracteres.</li>
+<li>Crea un usuario invitado que no pueda utilizar ningún medio
+   extraible, pero sí pueda acceder a Internet.</li>
+</ol>                </article>
 <p class="paginator">
-    Page 1 / 1
+    Page 1 / 5
+        <a href="../category/centraliz12.html">&raquo;</a>
 </p>
             </aside><!-- /#featured -->
             </ol><!-- /#posts-list -->
