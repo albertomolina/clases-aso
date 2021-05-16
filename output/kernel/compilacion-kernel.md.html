@@ -48,16 +48,14 @@ y la consola gráfica (texto).</p>
 <li>
 <p>Descomprime el código fuente del kérnel dentro del directorio de
    trabajo:</p>
-<div class="highlight"><pre><span></span><span class="n">tar</span> <span class="n">xf</span> <span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">src</span><span class="o">/</span><span class="n">linux</span><span class="o">-</span><span class="k">source</span><span class="o">-</span><span class="p">...</span> <span class="o">~/</span><span class="n">Linux</span><span class="o">/</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>tar xf /usr/src/linux-source-... ~/Linux/
+</code></pre></div>
 
 </li>
 <li>
 <p>Utiliza como punto de partida la configuración actual del núcleo:</p>
-<div class="highlight"><pre><span></span><span class="n">make</span> <span class="n">oldconfig</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>make oldconfig
+</code></pre></div>
 
 </li>
 <li>
@@ -68,9 +66,8 @@ y la consola gráfica (texto).</p>
 <p>Configura el núcleo en función de los módulos que está utilizando
    tu equipo (para no incluir en la compilación muchos controladores
    de dispositivos que no utiliza el equipo):</p>
-<div class="highlight"><pre><span></span><span class="n">make</span> <span class="n">localmodconfig</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>make localmodconfig
+</code></pre></div>
 
 </li>
 <li>
@@ -79,9 +76,8 @@ y la consola gráfica (texto).</p>
 </li>
 <li>
 <p>Realiza la primera compilación:</p>
-<div class="highlight"><pre><span></span><span class="n">make</span> <span class="o">-</span><span class="n">j</span> <span class="o">&lt;</span><span class="n">número</span> <span class="n">de</span> <span class="n">hilos</span><span class="o">&gt;</span> <span class="n">bindeb</span><span class="o">-</span><span class="n">pkg</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>make -j &lt;número de hilos&gt; bindeb-pkg
+</code></pre></div>
 
 </li>
 <li>
@@ -92,11 +88,10 @@ y la consola gráfica (texto).</p>
 <p>Si ha funcionado adecuadamente, utilizamos la configuración del
    paso anterior como punto de partida y vamos a reducir el tamaño del
    mismo, para ello vamos a seleccionar elemento a elemento.</p>
-<div class="highlight"><pre><span></span><span class="n">cp</span> <span class="o">/</span><span class="n">boot</span><span class="o">/</span><span class="n">config</span><span class="o">-</span><span class="p">...</span> <span class="p">.</span><span class="n">config</span>
-<span class="n">make</span> <span class="n">clean</span>
-<span class="n">make</span> <span class="n">xconfig</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>cp /boot/config-... .config
+make clean
+make xconfig
+</code></pre></div>
 
 </li>
 <li>
@@ -105,9 +100,8 @@ y la consola gráfica (texto).</p>
 </li>
 <li>
 <p>Vuelve a compilar:</p>
-<div class="highlight"><pre><span></span><span class="n">make</span> <span class="o">-</span><span class="n">j</span> <span class="o">&lt;</span><span class="n">número</span> <span class="n">de</span> <span class="n">hilos</span><span class="o">&gt;</span> <span class="n">bindeb</span><span class="o">-</span><span class="n">pkg</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>make -j &lt;número de hilos&gt; bindeb-pkg
+</code></pre></div>
 
 </li>
 <li>
